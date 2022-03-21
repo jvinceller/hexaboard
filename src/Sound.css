@@ -1,0 +1,54 @@
+.sound {
+    display: flex;
+    width: 54px;
+    height: 50px;
+}
+.sound .bar {
+    width: 5px;
+    top:25px;
+    height: 1px;
+    margin: 2px;
+    background-color: grey;
+    position: relative;
+}
+.sound.on .bar {
+    background-color: red;
+    animation: sound-on-animation 1s ease-in-out infinite;
+}
+.sound.off .bar {
+    animation: sound-off-animation 1s ease-in-out infinite;
+}
+.sound .bar:nth-child(0) {
+    animation-delay: 0.2s;
+}
+.sound .bar:nth-child(1) {
+    animation-delay: 0s;
+}
+.sound .bar:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.sound .bar:nth-child(3) {
+    animation-delay: 0.7s;
+}
+.sound .bar:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.sound .bar:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+@keyframes sound-off-animation {
+    0%   {top:25px;height:1px;}
+    20%  {top:25px;height:1px;}
+    25%  {top:23px;height:3px;}
+    30%  {top:25px;height:1px;}
+    100% {top:25px;height:1px;}
+}
+
+@keyframes sound-on-animation {
+    0%   {top:22px;height:5px;}
+    20%  {top:8px;height:35px;}
+    50%  {top:17px;height:15px;}
+    80%  {top:0px;height:50px;}
+    100% {top:12px;height:25px;}
+}

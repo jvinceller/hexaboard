@@ -87,11 +87,11 @@ function App() {
             </header>
             <section>
                 {soundPlayer ? <HexaBoard
-                    startingNote="C6"
+                    startingNote="C5"
                     cols={7} rows={4}
                     useTouchEvents={false} glissando={glissando}
                     playNoteCallback={playNote}
-                    stopNoteCallback={stopNote}></HexaBoard> : null}
+                    stopNoteCallback={stopNote}/> : null}
             </section>
             <div onClick={() => toggleSound()}><Sound on={soundEnabled}/></div>
             <div onClick={() => changeInstrument()}>NEXT INSTRUMENT</div>

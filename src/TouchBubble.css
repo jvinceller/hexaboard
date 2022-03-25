@@ -1,0 +1,9 @@
+.touchBubble {
+    fill: transparent;
+    stroke: none;
+}
+.touchBubble.playing {
+    fill: deeppink;
+    filter: blur(1px);
+}
+

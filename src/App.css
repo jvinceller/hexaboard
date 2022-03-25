@@ -19,22 +19,3 @@
 .App text {
   font-size: 8px;
 }
-
-.hexagon {
-  cursor: pointer;
-  fill: #c0c0c0;
-}
-.hexagon.whole {
-  fill: #f0f0f0;
-}
-.hexagon.note0 {
-  fill: lightpink;
-}
-.hexagon-text {
-  stroke-width: 1;
-  cursor: pointer;
-  user-select: none;
-}
-.playing .hexagon-text {
-  stroke: deeppink;
-}

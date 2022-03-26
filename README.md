@@ -4,6 +4,13 @@ This project was made as an example of how to use `soundfont-player` library.
 
 The hexagonal keyboard layout was made by using [this wikipedia article](https://en.wikipedia.org/wiki/Harmonic_table_note_layout).
 
+Using the app:
+- click on the grey stripes under the keyboard, this enables sound
+- click in (or hover over) the middle of the hexagons to play the note
+- click between the hexagons to play chords
+- change instrument if you wish
+- click on GLISSANDO to switch glissando on or off
+
 ## Available Scripts
 
 In the project directory, you can run:

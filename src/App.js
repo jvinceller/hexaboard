@@ -95,7 +95,7 @@ function App() {
             </section>
             <div onClick={() => toggleSound()}><Sound on={soundEnabled}/></div>
             <div onClick={() => changeInstrument()}>NEXT INSTRUMENT</div>
-            <div onClick={() => toggleGlissando()}>{glissando ? 'HOVER > CLICK' : 'CLICK > HOVER'}</div>
+            <div onClick={() => toggleGlissando()}>{glissando ? 'GLISSANDO ON' : 'GLISSANDO OFF'}</div>
         </div>
     );
 }
